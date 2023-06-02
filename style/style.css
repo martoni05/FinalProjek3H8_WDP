@@ -1,0 +1,245 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.nav-link {
+  font-weight: 400px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.navbar-nav .nav-item:hover .nav-link:hover {
+  border-radius: 25px;
+  transform: translateY(3px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-firts {
+  border: none;
+  border-radius: 0%;
+  width: 107px;
+  height: 40px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  color: black;
+  border-color: transparent;
+  font-size: 12px;
+}
+
+/* Jumbotron */
+.moto {
+  font-size: 85px;
+  line-height: 122px;
+  color: #020e35;
+}
+
+/*About */
+.justify {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.paragraf {
+  text-align: center;
+  width: 1300px;
+  margin-top: 50px;
+  position: relative;
+  top: 85%;
+  width: 100%;
+}
+
+/* Card */
+.service {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.container-service {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  margin-bottom: -250px;
+  margin-top: 90px;
+}
+.service-firts {
+  background: #fdf8e3;
+}
+.service-second {
+  background: #f0f3fa;
+}
+.service-thirt {
+  background: #feeff0;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.btn {
+  color: #fff;
+}
+.btn-service-firts {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  border-radius: 0%;
+  color: black;
+  border-color: transparent;
+  text-align: center;
+}
+.btn-service-second {
+  text-align: center;
+  margin-top: 20px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+.btn-service-thirt {
+  text-align: center;
+  margin-top: 30px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+
+/* Our Work */
+.product-firts {
+  background-color: #020e35;
+  margin-top: -200px;
+}
+
+.brand-firts {
+  margin-right: 300px;
+  display: flex;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.paragraf-firts {
+  margin-right: 100px;
+  margin-left: 4px;
+  margin-top: 20px;
+  color: #fff;
+  display: flex;
+  text-align: left;
+}
+
+.paragraf-second {
+  margin-right: 100px;
+  margin-left: 4px;
+  margin-top: 50px;
+  color: #fff;
+  display: flex;
+  text-align: left;
+  padding-right: 155px;
+}
+
+.brand-second {
+  margin-left: 510px;
+  display: flex;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.paragraf-thirt {
+  margin-right: 10px;
+  margin-left: 471px;
+  margin-top: 20px;
+  color: #fff;
+  display: flex;
+}
+
+.paragraf-four {
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-top: 50px;
+  color: #fff;
+  display: flex;
+  text-align: right;
+  padding-left: 155px;
+}
+
+.col {
+  margin-top: 20px;
+}
+
+img.product-right {
+  margin-top: 40px;
+  margin-right: 200px;
+}
+
+img.product-left {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.product-second {
+  background-color: #020e35;
+}
+
+.btn-brand {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  width: 10%;
+  position: relative;
+  left: 45%;
+}
+
+.our {
+  font-size: 40px;
+  margin-top: 350px;
+  color: #fff;
+}
+
+/* Contact */
+.container-question {
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+.title-left {
+  font-size: 30px;
+  line-height: 38px;
+  color: #020e35;
+}
+
+.title-left-second {
+  color: #020e35;
+  font-weight: 350;
+}
+
+.kata {
+  line-height: 110px;
+  color: #e73587;
+}
+
+.form-label {
+  font-weight: 400;
+  line-height: 22px;
+  color: #2c3241;
+}
+
+.text-placeholder {
+  font-size: 18px;
+  line-height: 36px;
+  color: #2c3241;
+}
+
+.btn-contact {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  border-radius: 0%;
+  color: black;
+  border-color: transparent;
+}
+
+/* Footer */
+footer {
+  color: white;
+  background-color: #020e35;
+}
